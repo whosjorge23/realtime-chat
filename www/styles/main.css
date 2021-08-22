@@ -109,8 +109,11 @@ footer {
     text-align: center;
 }
 @media only screen and (max-width: 510px) {
-   #messageInput {
-    width: 306px;
-    max-width: 440px;
-}
+       #messageInput {
+        width: 306px;
+        max-width: 440px;
+    }
+    .wrapper {
+    width: 365px;
+    }
 }
