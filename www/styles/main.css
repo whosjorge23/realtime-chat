@@ -28,6 +28,7 @@ html, body {
 .banner {
     height: 80px;
     width: 100%;
+    color: #ECF0F1;
 }
 .banner p {
     float: left;
