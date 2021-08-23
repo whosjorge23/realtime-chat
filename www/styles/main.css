@@ -43,7 +43,7 @@ html, body {
 #historyMsg {
     /* /* height: 400px; */
     /* background-color: #ecf0f18a; */
-    /* overflow: auto; */
+    overflow: scroll; 
     /* padding: 2px; */
 }
 #historyMsg img {
