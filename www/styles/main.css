@@ -60,6 +60,7 @@ html, body {
     width: 50px;
     border: none;
     padding: 0;
+    border-radius: 5px;
 }
 /*custom the file input*/
 
@@ -411,6 +412,23 @@ Message Box
 }
 .message-box .message-submit:hover {
   background: #1D7745;
+}
+
+.buttonLogin {
+  color: #fff;
+  border: none;
+  background: #248A52;
+  font-size: 10px;
+  text-transform: uppercase;
+  line-height: 1;
+  padding: 6px 10px;
+  border-radius: 5px;
+  outline: none !important;
+  transition: background 0.2s ease;
+}
+.loginText {
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
 /*--------------------
