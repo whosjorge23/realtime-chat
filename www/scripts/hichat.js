@@ -154,7 +154,7 @@ HiChat.prototype = {
             msgToDisplay = document.createElement('p'),
             date = new Date().toTimeString().substr(0, 8);
         msgToDisplay.style.color = color || '#00ff59';
-        msgToDisplay.innerHTML = user + ' <span class="timespan">(' + date + '): </span> <br/>' + '<a href="' + imgData + '" target="_blank"><img src="' + imgData + '"/></a>';
+        msgToDisplay.innerHTML = user + ' <span class="timespan">(' + date + '): </span> <br/>' + '<img src="' + imgData + '"/>';
         container.appendChild(msgToDisplay);
         container.scrollTop = container.scrollHeight;
     },
